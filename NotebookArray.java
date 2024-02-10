@@ -151,9 +151,9 @@ public class NotebookArray {
             Set<Notebook> filterBook = new HashSet<>();
             switch (pr) {
                 case "1":
-                    System.out.println("Введите минимальное значение желаемой памяти ОЗУ в Гигобайтах");
+                    System.out.println("Введите минимальное значение желаемой памяти ОЗУ в Гигабайтах");
                     int minRam = scanner.nextInt();
-                    System.out.println("Введите максимальное значение желаемой памяти ОЗУ Гигобайтах");
+                    System.out.println("Введите максимальное значение желаемой памяти ОЗУ Гигабайтах");
                     int maxRam = scanner.nextInt();
                     for (Notebook notebook : notebooks) {
                         if (notebook.getRAM() >= minRam && notebook.getRAM() <= maxRam) {
